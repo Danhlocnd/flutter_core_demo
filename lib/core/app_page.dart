@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttercoredemo/auth/auth_bloc.dart';
 import 'package:fluttercoredemo/auth/login_screen.dart';
 import 'package:fluttercoredemo/auth/splash_screen.dart';
@@ -30,6 +31,8 @@ class _AppPageState extends State<AppPage> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     appBloc = BlocProvider.of(context);
+    ScreenUtil.init(context,
+        width: 1080, height: 1980, allowFontScaling: false);
     return Scaffold(
         backgroundColor: Colors.white,
         body: Stack(
