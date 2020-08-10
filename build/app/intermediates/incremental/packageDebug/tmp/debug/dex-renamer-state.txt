@@ -1,0 +1,4 @@
+#Mon Aug 10 11:07:37 ICT 2020
+base.0=/Users/mac/Documents/Code/flutter_core_demo/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
