@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66b61191-cc6b-4011-a710-8b0b0592702f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/component/widget/drawer_screen_inapp.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auth/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth/login_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/component/widget/drawer_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/component/widget/drawer_screen_login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/app_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/app_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/app_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/app_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home/home_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home/home_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home/home_screen.dart" afterDir="false" />
+    <list default="true" id="66b61191-cc6b-4011-a710-8b0b0592702f" name="Default Changelist" comment="Khung state">
+      <change beforePath="$PROJECT_DIR$/build/cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/cache.dill.track.dill" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -54,11 +47,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/home/home_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="130">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#609#1804#0" />
               </folding>
             </state>
           </provider>
@@ -197,9 +189,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="14" />
     <option name="y" value="23" />
-    <option name="width" value="1426" />
+    <option name="width" value="1095" />
     <option name="height" value="820" />
   </component>
   <component name="ProjectView">
@@ -219,18 +210,6 @@
               <item name="flutter_core_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_core_demo" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_core_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_core_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_core_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_core_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,12 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597119790442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Khung state">
+      <created>1597129988690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597129988690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
       <window_info id="Captures" order="1" side_tool="true" />
@@ -314,8 +299,8 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" visible="true" weight="0.26785713" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.26785713" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.125" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.18181819" />
@@ -332,7 +317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="giao diện login" />
-    <option name="LAST_COMMIT_MESSAGE" value="giao diện login" />
+    <MESSAGE value="Khung state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Khung state" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -543,11 +529,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/home/home_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="130">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#609#1804#0" />
           </folding>
         </state>
       </provider>

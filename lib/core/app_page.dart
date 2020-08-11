@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fluttercoredemo/auth/auth_bloc.dart';
-import 'package:fluttercoredemo/auth/login_screen.dart';
-import 'package:fluttercoredemo/auth/splash_screen.dart';
+import 'package:fluttercoredemo/screen/auth/auth_bloc.dart';
+import 'package:fluttercoredemo/screen/auth/login_screen.dart';
+import 'package:fluttercoredemo/screen/auth/splash_screen.dart';
 import 'package:fluttercoredemo/core/app_bloc.dart';
 import 'package:fluttercoredemo/core/bloc_provider.dart';
-import 'package:fluttercoredemo/home/home_screen.dart';
+import 'package:fluttercoredemo/screen/home/home_screen.dart';
 
 class AppPage extends StatefulWidget {
   @override

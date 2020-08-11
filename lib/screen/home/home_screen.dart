@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttercoredemo/component/widget/drawer_screen_inapp.dart';
 import 'package:fluttercoredemo/core/app_bloc.dart';
 import 'package:fluttercoredemo/core/bloc_provider.dart';
-import 'package:fluttercoredemo/home/home_bloc.dart';
+import 'package:fluttercoredemo/screen/home/home_bloc.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

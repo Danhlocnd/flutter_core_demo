@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fluttercoredemo/auth/auth_bloc.dart';
+import 'package:fluttercoredemo/screen/auth/auth_bloc.dart';
 import 'package:fluttercoredemo/component/widget/drawer_screen_login.dart';
 import 'package:fluttercoredemo/core/app_bloc.dart';
 import 'package:fluttercoredemo/core/bloc_provider.dart';

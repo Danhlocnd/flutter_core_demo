@@ -2,7 +2,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercoredemo/core/app_bloc.dart';
 import 'package:fluttercoredemo/core/bloc_provider.dart';
-import 'package:fluttercoredemo/home/home_bloc.dart';
+import 'package:fluttercoredemo/screen/home/home_bloc.dart';
 
 class DrawerScreenInApp extends StatefulWidget {
   DrawerScreenInApp({Key key}) : super(key: key);

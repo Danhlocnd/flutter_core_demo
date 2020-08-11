@@ -1,5 +1,6 @@
-import 'package:fluttercoredemo/auth/auth_bloc.dart';
-import 'package:fluttercoredemo/home/home_bloc.dart';
+
+import 'package:fluttercoredemo/screen/auth/auth_bloc.dart';
+import 'package:fluttercoredemo/screen/home/home_bloc.dart';
 
 class AppBloc {
   AuthBloc _authBloc;

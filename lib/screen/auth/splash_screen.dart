@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercoredemo/auth/auth_bloc.dart';
+import 'package:fluttercoredemo/screen/auth/auth_bloc.dart';
 import 'package:fluttercoredemo/core/app_bloc.dart';
 import 'package:fluttercoredemo/core/bloc_provider.dart';
 import 'package:fluttercoredemo/core/size_extension.dart';
