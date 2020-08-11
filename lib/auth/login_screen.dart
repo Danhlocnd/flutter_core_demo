@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttercoredemo/auth/auth_bloc.dart';
-import 'package:fluttercoredemo/component/widget/drawer_screen.dart';
+import 'package:fluttercoredemo/component/widget/drawer_screen_login.dart';
 import 'package:fluttercoredemo/core/app_bloc.dart';
 import 'package:fluttercoredemo/core/bloc_provider.dart';
 import 'package:fluttercoredemo/core/size_render.dart';
@@ -24,8 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     appBloc = BlocProvider.of(context);
     return Scaffold(
-      appBar: AppBar(
-      ),
+      appBar: AppBar(),
       drawer: DrawerScreen(),
       body: Container(
           child: Column(
@@ -140,7 +139,10 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           FlatButton(
             disabledColor: Color(0xff60b3f7).withOpacity(0.4),
-            onPressed: null,
+            onPressed: () {
+              appBloc.authBloc.authStream
+                  .notify(AuthenticationModel(AuthState.LOGIN_SUCCESS, null));
+            },
             child: Container(
                 width: 400.w,
                 child: Center(
