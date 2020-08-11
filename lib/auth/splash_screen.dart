@@ -18,6 +18,10 @@ class _SplashScreenState extends State<SplashScreen>
   void initState() {
     _animationController = AnimationController(
         vsync: this, duration: Duration(milliseconds: 1000));
+
+    Future.delayed(Duration.zero,(){
+      appBloc.authBloc.getDataInit();
+    });
     super.initState();
   }
 
