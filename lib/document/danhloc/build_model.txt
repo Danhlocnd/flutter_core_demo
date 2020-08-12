@@ -1,0 +1,33 @@
+
+  
+ auto gen model từ json 
+
+b1: 
+dependencies:
+  json_model:
+  json_annotation:
+  json_serializable:
+dev_dependencies:
+  build_runner:
+
+
+ 
+b2:
+Tạo folder jsons :
+    jsons
+      -login.json  
+
+b3: chạy lênh trên terminal
+  flutter packages pub run json_model
+
+b4: build json_serializable:
+ flutter packages pub run build_runner build
+
+
+
+_build model từ json : json_model 
+  flutter packages pub run json_model 
+
+_render lại model chỉnh sửa model  : build_runner  
+   flutter packages pub run build_runner watch (theo doi thay đổi liên tục)
+   flutter packages pub run build_runner build  (build 1 lần )

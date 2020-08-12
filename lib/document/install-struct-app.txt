@@ -1,0 +1,19 @@
+
+
+Install app (cài đặt app):
+b1 : clone app về giải nén 
+b2 : gõ lệnh flutter pub get (để clone app về )
+b3 : run app
+
+Structs App (cấu trúc của app):
+ _ file pubspect.yaml : thêm các thư viện ,hình ảnh ,font chữ .....
+ _ src: tất cả code đều nằm trong thư mục 
+    +Common : các enum đường dẫn tĩnh 
+        + api-contants.dart : chứa các đường dẫn api tĩnh để call api 
+        + config-api.dart : config đường dẫn gốc serve và port 
+        + constants.dart : các hằng số biến mặc định khai báo khởi tạo cho app 
+    + Document : tài liệu lỗi fix bug cài đặt hướng dẫn, tổng hợp       
+    + Ruoter : chuyển trang cho app 
+    + utils : chứa các hàm biến chuyển đổi convert, dùng chung 
+    + validates: chuyên dùng validate dữ liệu chung 
+    + widgets : thêm các widgets có thể dùng chung và dùng lại 
